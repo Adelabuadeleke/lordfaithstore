@@ -21,3 +21,43 @@ nav {
 .nav__one>img {
  margin-right: 20px;
 }
+
+.nav__bottom {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom__first {
+ display: flex;
+ align-items: center;
+}
+
+.bottom__first> img {
+ height: 80px;
+}
+
+.bottom__first > ul {
+ display: flex;
+}
+
+.bottom__first>ul>li {
+ list-style: none;
+ margin-left: 20px;
+}
+
+.bottom__second {
+ display: flex;
+ align-items: center;
+}
+
+.second__icon {
+ display: flex;
+ align-items: center;
+ margin-right: 20px;
+}
+
+.second__icon>p {
+ margin-left: 20px;
+}
