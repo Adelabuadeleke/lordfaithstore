@@ -61,3 +61,54 @@ nav {
 .second__icon>p {
  margin-left: 20px;
 }
+.intro__all {
+ display: flex;
+}
+.intro {
+ background: #a40f0f;
+ width: 30%;
+ color: #ffffff;
+ height: 400px;
+ display: flex;
+ justify-content: center;
+ /* align-items: center; */
+ flex-direction: column;
+ padding: 30px;
+}
+/* .intro__contents {
+ text-align: center;
+} */
+.intro__contents >h1 {
+ font-weight: 600;
+ font-size: 73px;
+ margin: 0;
+ padding: 0;
+ 
+ /* line-height: 76px; */
+ letter-spacing: -0.02em;
+
+}
+
+.intro > button {
+ width: 237px;
+ height: 76px;
+ background: #FFF6B9;
+ color: #a40f0f;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border:1px solid #fff6d8;
+}
+
+.intro__imgs {
+ display: flex;
+ align-items: center;
+ background: #fff6d8;
+ flex: 1;
+}
+
+.intro__imgs>img {
+ margin-right: 10px;
+ max-width: 400px;
+ height:  400px;
+}
