@@ -112,3 +112,33 @@ nav {
  max-width: 400px;
  height:  400px;
 }
+
+/* best sellers style */
+
+.best__sellers {
+ padding: 10px;
+}
+.best__sellers > p {
+ text-transform: uppercase;
+ text-align: center;
+ font-family: 'Figtree';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ /* line-height: 76px; */
+ letter-spacing: 0.19em;
+ color: #A40F0F;
+ margin: 0;
+}
+
+.best__sellers > h2 {
+ text-transform: capitalize;
+ text-align: center;
+ font-family: 'Figtree';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 40px;
+ /* line-height: 76px; */
+ letter-spacing: -0.02em;
+ margin: 0;
+}
