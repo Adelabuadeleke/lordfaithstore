@@ -1,6 +1,7 @@
 body {
  margin: 0;
  padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -83,7 +84,7 @@ nav {
  font-size: 73px;
  margin: 0;
  padding: 0;
- 
+ font-family: 'Times New Roman', Times, serif;
  /* line-height: 76px; */
  letter-spacing: -0.02em;
 
@@ -173,6 +174,7 @@ nav {
   margin-bottom: 20px;
 }
 
+.testimonial>p,
 .trending__products>p,
 .our__products>p {
  text-transform: uppercase;
@@ -187,6 +189,8 @@ nav {
  margin: 0;
  font-family: Arial, Helvetica, sans-serif;
 }
+
+.testimonial>h2,
 .trending__products>h2,
 .our__products>h2 {
  text-transform: capitalize;
@@ -284,4 +288,61 @@ nav {
 .video-controls > video {
  width: 80vw;
  height: 300px;
+}
+
+/* testimonial styling */
+.testimonial {
+ padding: 30px;
+}
+
+.testimonial_item {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 30px;
+}
+
+.testimonial_item>img {
+ height: 350px;
+}
+
+.rev_person {
+ display: flex;
+ align-items: center;
+}
+
+.rev_person>img {
+ margin-right: 10px;
+}
+
+.review {
+ background: #FFF2C7;
+ padding: 40px;
+}
+
+.rev_btns {
+ display: flex;
+ width: 100px;
+ justify-content: center;
+}
+
+.rev_btns>button {
+ width: 51px;
+ height: 51px;
+ left: 0px;
+ top: 0px;
+ background: #A40F0F;
+ border: 1px solid #A40F0F;
+ margin: 0;
+}
+
+/* footer styling */
+footer {
+ padding: 20px;
+ background: #A40F0F;
+ color: #ffffff;
+}
+
+footer>p{
+ text-align: center;
 }
