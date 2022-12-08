@@ -67,7 +67,6 @@ nav {
 }
 .intro {
  background: #a40f0f;
- width: 30%;
  color: #ffffff;
  height: 400px;
  display: flex;
@@ -154,18 +153,14 @@ nav {
 
 .best__sellers_imgs {
  display: flex;
+ flex-wrap: wrap;
  /* flex-direction: column; */
  justify-content: center;
  align-items: center;
  padding: 50px;
 }
 
-.img_one>img,
-.img_two> img,
-.img_three>img{
- width: 400px;
- margin: 5px;
-}
+
 
 .img_three {
  display: flex;
@@ -305,12 +300,6 @@ nav {
  padding: 30px;
 }
 
-.testimonial_item {
- display: flex;
- align-items: center;
- justify-content: center;
- padding: 30px;
-}
 
 .testimonial_item>img {
  height: 350px;
@@ -377,3 +366,111 @@ footer>p{
  z-index: -999;
  visibility: hidden;
 }
+
+@media screen and (min-width: 320px) {
+  .bottom__first> ul {
+    display: none;
+  }
+  /* .bottom__second {
+    display: none;
+  } */
+
+  .img_one>img,
+  .img_two>img,
+  .img_three>img {
+    width: 300px;
+    margin: 5px;
+  }
+
+  .testimonial_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+    flex-direction: column;
+  }
+
+  .intro__all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .best__sellers_imgs {
+    flex-wrap: wrap;
+  }
+
+  nav> p {
+    display: none;
+  }
+
+  .nav__one>p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img_one>img,
+  .img_two>img,
+  .img_three>img {
+    width: 400px;
+    margin: 5px;
+  }
+
+  .testimonial_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .intro__all {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .testimonial_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+    flex-direction: row;
+  }
+  .intro {
+    width: 30%;
+  }
+
+  .intro__contents>h1 {
+    font-weight: 600;
+    font-size: 63px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* line-height: 76px; */
+    letter-spacing: -0.02em;
+  }
+
+  nav>p {
+    display: block;
+  }
+
+  .nav__one>p {
+    font-size: initial;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .best__sellers_imgs{
+    flex-wrap: nowrap;
+  }
+
+  .intro__contents>h1 {
+    font-weight: 600;
+    font-size: 73px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* line-height: 76px; */
+    letter-spacing: -0.02em;
+  }
+}
+
